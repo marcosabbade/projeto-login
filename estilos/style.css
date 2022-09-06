@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 90vw;
+    background: linear-gradient(var(--verde), var(--roxo));
+    background-repeat: no-repeat;
+}
+
+:root {
+    --verde: #49a09d;
+    --roxo: #5f2c82;
+}
